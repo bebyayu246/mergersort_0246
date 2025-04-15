@@ -8,6 +8,15 @@ int n;
 
 void input()
 {
-   
+    while (true)
+    {
+        cout << " Masukkan panjang element array : ";
+        cin >> n;
+
+        if (n <= 20)
+        {
+            break;
+        }
+    }
 }
 
