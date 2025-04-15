@@ -32,3 +32,12 @@ void input()
     }
 }
 
+//create function mergesort
+void mergeSort(int low, int higt)
+{
+    if (low >= higt) // step 1
+    {
+        return; // step 1.a
+    }
+}
+
